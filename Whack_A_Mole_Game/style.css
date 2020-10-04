@@ -11,13 +11,9 @@ html {
 }
 
 body {
-  padding: 0;
+  padding: 5rem 0;
   margin: 0;
   font-family: "Amatic SC", cursive;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 header {
   text-align: center;
@@ -110,10 +106,14 @@ header h2 {
 }
 
 @media screen and (max-width: 568px) {
+  html {
+    font-size: 6px;
+  }
   .hole {
     flex: 1 0 50%;
   }
-  .hole:after {
-    height: 50px;
+
+  .mole {
+    background-size: 30%;
   }
 }
